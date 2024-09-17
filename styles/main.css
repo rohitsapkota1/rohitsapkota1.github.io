@@ -5,23 +5,23 @@ body {
 }
 a:focus, a:hover {
     font-style: italic;
-    color:blue;
+    color:grey;
 }
 header h1 {
     font-size: 175%;
-    color:blue;
+    color:grey;
     text-indent: 30px;
 }
 header h2 {
     font-size: 130%;
-    color:blue;
+    color:grey;
     text-indent: 30px;
 }
 header img {
     float: left;
 }
 .shadow {
-    text-shadow: 2px 2px 2px rgb(68, 25, 25);
+    text-shadow: 2px 2px 2px rgb(126, 103, 103);
 }
 main {
     clear: left;
