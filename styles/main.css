@@ -19,16 +19,16 @@ body {
 }
 a:focus, a:hover {
     font-style: italic;
-    color:blue;
+    color:whitesmoke;
 }
 header h1 {
     font-size: 175%;
-    color:blue;
+    color:whitesmoke;
     text-indent: 30px;
 }
 header h2 {
     font-size: 130%;
-    color:blue;
+    color:whitesmoke;
     text-indent: 30px;
 }
 header img {
@@ -43,7 +43,7 @@ main {
 main h3 {
     font-size: 105%;
     margin-top: 3em 2em 1.5em;
-    border: 5px double blue;
+    border: 5px double whitesmoke;
 
 }
 #list {
