@@ -49,10 +49,26 @@ main h3 {
     padding: 1em;
 
 }
+nav {
+    margin: 1.5em 2em; /* Set margins */
+    border: 5px dashed blue; /* Set border style */
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
+}
+
+.contact {
+    margin: 1.5em 2em 0em; /* Set margins */
+    border: 5px dotted blue; /* Set border style */
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+
+
 #list {
     line-height: 1.5em;
 }
 footer p.copyright {
     text-align: center;
     font-size: 80%;
-}
