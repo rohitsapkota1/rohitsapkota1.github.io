@@ -6,65 +6,67 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1000%;
     width: 1000px;
-    background-color: black;
+    background-color:white;
     margin: 15px auto;
     padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 25px;
-    box-shadow: 5px 5px 0;
+    box-shadow: 5px 5px 0 0;
     background-image: url("../images/bearkatpaws.png");
     background-repeat: repeat-y;
     background-position: right;
-    background-attachment: fixed;
+    background-attachment:scroll;
 }
 a:focus, a:hover {
     font-style: italic;
-    color:whitesmoke;
+    color:orangered;
 }
 header h1 {
     font-size: 175%;
-    color:whitesmoke;
+    color:maroon;
     text-indent: 30px;
 }
 header h2 {
     font-size: 130%;
-    color:whitesmoke;
+    color:maroon;
     text-indent: 30px;
 }
 header img {
     float: left;
+    margin-left: 2em;
 }
 .shadow {
-    text-shadow: 2px 2px 2px rgb(126, 103, 103);
+    text-shadow: 2px 2px 2px rgb(126, 0, 0);
 }
 main {
     clear: left;
 }
 main h3 {
     font-size: 105%;
-    margin-top: 3em 2em 1.5em;
-    border: 5px double whitesmoke;
+    margin: 3em 2em 1.5em;
+    border: 5px solid green;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 
 }
-nav {
-    margin: 1.5em 2em; /* Set margins */
-    border: 5px dashed blue; /* Set border style */
+main nav {
+    margin: 1.5em 2em;
+    border: 5px dashed blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
-    padding: 0.5em;
+    padding: 1em;
+    font-size: 105%;
 }
 
-.contact {
-    margin: 1.5em 2em 0em; /* Set margins */
-    border: 5px dotted blue; /* Set border style */
+main h3
+ {
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
-
 
 #list {
     line-height: 1.5em;
