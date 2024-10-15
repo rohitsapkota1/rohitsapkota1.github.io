@@ -62,11 +62,12 @@ article p::first-letter {
     color: lightgreen;
 
 }
-aside{
+aside
+{
     width: 20%;
     float: right;
     background-color: #ffebc6;
-    padding: 15px 1.5em;
+    padding:1.5em;
 
 }
 footer{
