@@ -74,14 +74,3 @@ footer{
     clear: both;
     border-top: 2px solid maroon;
 }
-p.shadow
-{
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    background-color: white;
-    padding: 5px;
-    border: 1px solid black;
-    
-
-}
