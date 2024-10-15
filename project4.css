@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
 
 body {
@@ -18,7 +18,9 @@ a:focus, a:hover {
     font-style: italic;
     color: orangered;
     border: 3px blue;
-    border-style: ;
+    border-style: dotted solid ;
+    gap: 2em;
+    margin: left 2em;
 }
 header h1 {
     font-size: 175%;
@@ -58,13 +60,13 @@ article p::first-letter {
     font-weight: bold;
     font-style: italic;
     color: lightgreen;
+
 }
 aside{
     width: 20%;
     float: right;
     background-color: #ffebc6;
-
-
+    padding: 15px 1.5em;
 
 }
 footer{
