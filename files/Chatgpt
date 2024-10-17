@@ -1,0 +1,14 @@
+@startuml
+actor Customer
+actor Vendor
+
+Customer --> (Collect Customer Data)
+(Collect Customer Data) --> [Customer Information]
+Customer --> (Sales Order Processing)
+(Sales Order Processing) --> [Sales Transactions]
+(Sales Order Processing) --> [Inventory Records]
+
+Vendor --> (Inventory Management)
+(Inventory Management) --> [Inventory Records]
+@enduml
+
