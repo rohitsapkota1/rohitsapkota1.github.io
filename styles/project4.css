@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+    background-image: linear-gradient( to left, white 0%, #facd8a 100% );
 }
 
 body {
@@ -20,7 +20,7 @@ a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid ;
     gap: 2em;
-    margin: left 2em;
+    margin-left:  2em;
 }
 header h1 {
     font-size: 175%;
