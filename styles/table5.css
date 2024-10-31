@@ -1,3 +1,4 @@
 table.first {
-    
+    border-collapse: separate;
+    border: 2px solid black;
 }
