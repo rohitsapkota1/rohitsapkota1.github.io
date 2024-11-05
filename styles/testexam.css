@@ -11,7 +11,8 @@ color: white;
 font-weight: bold;
 border-right: 2px solid white;
 border-top: 3px solid blue;
-border-style: dotted;
+border-style: dashed solid;
+
 }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
