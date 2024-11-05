@@ -12,8 +12,10 @@ font-weight: bold;
 border-right: 2px solid white;
 border-top: 3px solid blue;
 border-style: dashed solid;
-
 }
+
+
+header{border-top: 2px solid maroon;}
 
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
@@ -56,8 +58,8 @@ article h3 {
 }
 article img{
     float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin-right: 0.4em;
+    margin-bottom: 0.4em;
 }
 
 aside{
