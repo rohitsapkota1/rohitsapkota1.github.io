@@ -1,150 +1,21 @@
-/* Ensure the body and html take full height of the page */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Light gray background color */
-    width: 95%;
-    margin: 15px auto;
-    background-image: url('your-image-path.jpg'); /* Add the path to your image */
-    background-repeat: repeat-y;
-    background-position: right top;
-    background-attachment: fixed; /* Prevent background from scrolling */
-}
-
-/* Add a border around the entire body */
-body {
-    border: 3px solid #ccc;
-    padding: 20px; /* Space inside the border */
-}
-
-/* Navigation Bar */
-#nav_menu {
-    background-color: #333;
-    padding: 10px 0;
-    border-bottom: 2px solid #ccc; /* Line below the nav */
-}
-
-#nav_menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-#nav_menu ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
 #nav_menu ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
-
-#nav_menu ul li a:hover {
-    background-color: #575757;
-}
-
-/* Article Styling */
-article {
-    width: 75%;
-    margin: 20px auto; /* Center the article and add margin */
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Section Header Styles */
-article h1, article h2 {
-    color: #333;
-}
-
-article p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-
-/* Aside Styling */
-aside {
-    width: 20%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: white;
-    padding: 20px;
-    border-left: 2px solid #ccc; /* Line separating the article and aside */
-    height: 100%;
-    overflow-y: auto;
-}
+text-align: center;
+display: block;
+width: 175px;
+padding: 1em 0;
+text-decoration: none;
+background-color: blue;
+color: white;
+font-weight: bold;
+border-right: 2px solid white; }
+#nav_menu ul li a.lastitem { border-right: none; }
+#nav_menu ul li a.current { color: yellow; }
 
 aside ol {
-    padding-left: 20px;
+list-style-type: upper-roman;
 }
-
-aside ol li {
-    list-style-type: decimal; /* Use decimal numbering */
-    margin-bottom: 10px;
-}
-
-/* Nested list styling */
-aside ol ul {
-    list-style-type: square; /* For nested lists */
-    margin-top: 5px;
-    padding-left: 20px;
-}
-
-aside a {
-    color: #0077b5; /* LinkedIn blue */
-    text-decoration: none;
-}
-
-aside a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styling */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border-top: 2px solid #ccc; /* Line above the footer */
-}
-
-footer a {
-    color: #0077b5;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-/* Ensure that there’s a line below the article content */
-article {
-    border-bottom: 2px solid #ccc;
-}
-
-/* Add a line between the article and the aside */
-article + aside {
-    border-left: 2px solid #ccc;
-}
-
-/* Make sure the footer is at the bottom */
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-}
-
-/* Add margins and padding around the article content */
-article, aside {
-    margin-bottom: 20px; /* Spacing between the content and footer */
+aside ul {
+    list-style-type: square;
 }
