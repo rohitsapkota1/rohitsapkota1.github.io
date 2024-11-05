@@ -21,9 +21,7 @@ aside ul {
 }
 
 p::first-letter {
-font-size: 2em;
+font-size: 4em;
 font-weight:bold italic ;
 color: darkgreen;
-float: left;
-margin-right: 2px;
 }
