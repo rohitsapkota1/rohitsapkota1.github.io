@@ -14,12 +14,6 @@ border-top: 3px solid blue; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
 
-header{
-    border-bottom: 2px dotted maroon;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -32,7 +26,7 @@ body{
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
     background-image:url("https://www.shsu.edu/dept/marketing/athletic-logos/Sam_Houston_Mascot_White_Sweater_FC_RGB_WHTBG_FINAL_Sam_Houston_Mascot_White_Sweater_FC_PMS_WHTBG.png");
-    background-size: 500px 350px;
+    background-size: 450px 300px;
     background-repeat: repeat-y;
     background-position: right;
     background-attachment: fixed;
