@@ -30,9 +30,10 @@ article {
     width: 70%;
     float: left;
     column-count: 3;
-    column-rule: 2px dotted maroon;
+    column-rule: 4px dotted rgb(184, 13, 13);
     column-gap: 2em;
     margin-left: 2em;
+
 }
 article h3 {
     column-span: all;
