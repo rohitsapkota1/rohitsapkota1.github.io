@@ -23,7 +23,15 @@ body{
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+    background-image:url("https://www.shsu.edu/dept/marketing/athletic-logos/Sam_Houston_Mascot_White_Sweater_FC_RGB_WHTBG_FINAL_Sam_Houston_Mascot_White_Sweater_FC_PMS_WHTBG.png");
+    background-size: 500px 350px;
+    background-repeat: repeat-y;
+    background-position: right;
+    background-attachment: fixed;
+    padding-bottom: 10px;
+
 }
+
 
 article {
     clear: left;
