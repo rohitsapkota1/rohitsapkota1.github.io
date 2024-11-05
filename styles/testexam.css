@@ -60,12 +60,14 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: rgb(2, 21, 2);
+    color: rgb(4, 82, 4);
 }
 
 footer
 {
     clear: both;
     border-top: 2px solid maroon;
+    position: center;
+    
 
 }
