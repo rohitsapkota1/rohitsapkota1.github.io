@@ -10,7 +10,9 @@ background-color: blue;
 color: white;
 font-weight: bold;
 border-right: 2px solid white;
-border-top: 3px solid blue; }
+border-top: 3px solid blue;
+border-style: dotted;
+}
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
 
