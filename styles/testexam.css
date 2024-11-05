@@ -19,3 +19,11 @@ list-style-type: upper-roman;
 aside ul {
     list-style-type: square;
 }
+
+p::first-letter {
+font-size: 5em;
+font-weight:bold italic ;
+color: darkgreen;
+float: left;
+margin-right: 5px;
+}
