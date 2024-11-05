@@ -23,11 +23,16 @@ body{
 }
 
 
-aside ol {
-list-style-type: upper-roman;
-}
-aside ul {
-    list-style-type: square;
+aside{
+    width: 20%;
+    background-color: #c6e5ff;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-70%);
+    padding: 10px;
+    margin: 10px;
+    position: fixed;
+    border: 2px solid black;
 }
 
 p::first-letter {
