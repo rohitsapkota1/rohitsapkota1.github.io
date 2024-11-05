@@ -35,8 +35,10 @@ aside{
     border: 2px solid black;
 }
 
-p::first-letter {
-font-size: 3em;
-font-weight:bold italic ;
-color: darkgreen;
+
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
 }
