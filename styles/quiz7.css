@@ -32,7 +32,7 @@ table.second th, table.second td {
 table.third {
     border-collapse: collapse;
     width: 100%;
-    border: 2px solid orangered;
+    
 }
 
 table.third thead tr:first-child {
@@ -45,7 +45,7 @@ table.third thead tr:nth-child(2) {
 
 table.third th, table.third td {
     padding: 0.7em;
-    border: 2px solid orangered;
+    
     vertical-align: top;
 }
 
