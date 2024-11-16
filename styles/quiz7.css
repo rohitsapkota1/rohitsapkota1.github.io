@@ -31,7 +31,6 @@ table.second th, table.second td {
 
 table.third {
     border-collapse: collapse;
-    width: 100%;
     border: 2px solid orangered;
 }
 
