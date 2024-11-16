@@ -1,0 +1,45 @@
+/* General Table Styles */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.custom-table thead th.heading {
+    background-color: #f0f0f0; /* Light gray, same as category line */
+    color: #000; /* Black text for heading */
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #000; /* Bottom border */
+    text-align: center;
+}
+
+.custom-table thead tr.category-row th {
+    background-color: #f0f0f0; /* Same light gray color as heading */
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #000; /* Bottom border for category row */
+}
+
+.custom-table tbody td {
+    padding: 10px 5px;
+    vertical-align: top;
+}
+
+/* Remove vertical lines */
+.custom-table td, 
+.custom-table th {
+    border: none;
+}
+
+/* Bottom border for rows */
+.custom-table tbody tr {
+    border-bottom: 1px solid #000; /* Line at the bottom of each row */
+}
+
+/* Special row span styling */
+.custom-table tbody td[rowspan] {
+    vertical-align: top;
+}
