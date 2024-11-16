@@ -40,7 +40,7 @@ table.third thead tr:first-child {
 }
 
 table.third thead tr:nth-child(2) {
-    background-color: lightgray;
+    background-color: orangered;
 }
 
 table.third th, table.third td {
