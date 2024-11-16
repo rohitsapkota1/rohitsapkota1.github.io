@@ -30,7 +30,7 @@ table.second th, table.second td {
 }
 
 table.third {
-    border-collapse: collapse;
+    
     border: 2px solid purple;
     caption-side: bottom;
 }
