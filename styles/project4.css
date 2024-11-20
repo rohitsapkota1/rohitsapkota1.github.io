@@ -71,6 +71,18 @@ aside
     padding:1.5em;
 
 }
+
+body p.fixed{
+    margin: 0 20px 10px;
+    width: auto;
+    position: fixed;
+    bottom: 200px;
+    right: 35px;
+    background-color: greenyellow;
+    padding: 25px;
+    border: 2px solid greenyellow;
+}
+
 footer
 {
     clear: both;
