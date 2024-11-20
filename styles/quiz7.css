@@ -39,6 +39,7 @@ table.third caption {
 }
 
 table.third th {
+background-color: limegreen;
 border-bottom: 2px solid salmon;
 padding: 10px
 }
