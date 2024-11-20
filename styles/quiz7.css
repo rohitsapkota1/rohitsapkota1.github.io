@@ -52,7 +52,7 @@ padding: 10px
 table.third th, .third td {
     padding: 5px;
     text-align: left;
-   
+    border-bottom: 2px solid salmon;
 }
 
 
