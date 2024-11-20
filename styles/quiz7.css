@@ -29,19 +29,29 @@ table.second th, table.second td {
     border: 2px solid purple;
 }
 
-table.third {
-    
-    border: 2px solid orangered;
-    caption-side: bottom;
+table.third caption {
+    caption-side: top;
+    background-color: rgb(32, 194, 32);
+    font-weight: bold;
+    border-top: 2px solid salmon;
+    border-bottom: 2px solid salmon;
+    padding: 5px;
 }
 
 table.third th {
 background-color: lime;
+border-bottom: 2px solid salmon;
+padding: 10px
 }
 
-table.third th, table.third td {
-    padding: 0.7em;
-    vertical-align: middle;
+.third td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+table.third th, .third td {
+    padding: 5px;
+    text-align: center;
    
 }
 
